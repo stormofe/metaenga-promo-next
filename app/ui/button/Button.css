@@ -1,0 +1,140 @@
+.btn,
+.btn-link {
+	position: relative;
+	border: none;
+	border-radius: 6px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.035em;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: fit-content;
+	display: inline-flex;
+	align-items: center;
+	font-family: 'Figtree', sans-serif;
+}
+
+.btn-link {
+	display: inline-block;
+}
+
+.btn.primary,
+.btn-link.primary {
+	padding: 5px 10px;
+	background-color: var(--primary-color);
+	color: #fff;
+	font-weight: 500;
+}
+
+.btn.secondary,
+.btn-link.secondary {
+	padding: 5px 10px;
+	border: 1.5px solid var(--primary-color);
+	background-color: #fff;
+	color: var(--primary-color);
+}
+
+.btn.textbtn,
+.btn-link.textbtn {
+	padding: 5px 10px;
+	background-color: transparent;
+	color: var(--primary-color);
+	box-shadow: none;
+}
+
+.btn:hover,
+.btn-link:hover {
+	box-shadow: 0px 8px 10px rgba(0, 134, 255, 0.12), 0px 3px 14px rgba(0, 134, 255, 0.1), 0px 5px 5px rgba(0, 134, 255, 0.18);
+}
+
+.btn.textbtn:hover,
+.btn-link.textbtn:hover {
+	background: rgba(0, 93, 255, 0.1);
+	transform: none;
+	box-shadow: none;
+}
+
+.btn.textbtn:active,
+.btn-link.textbtn:active {
+	background-color: transparent;
+	color: #0086FF;
+}
+
+.btn.primary:active,
+.btn-link.primary:active {
+	background-color: #0086FF;
+}
+
+.btn.secondary:active,
+.btn-link.secondary:active {
+	border-color: #0086FF;
+	color: #0086FF;
+}
+
+.btn.primary:disabled {
+	background-color: #C1C4C9;
+	color: #959BA3;
+	cursor: not-allowed;
+}
+
+
+.icon {
+	width: 24px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	object-fit: contain;
+	color: inherit;
+}
+
+.icon i::before {
+	transition: all 0.2s ease-in-out;
+	width: 100%;
+	height: 100%;
+	font-size: 24px;
+}
+
+.icon.left {
+	margin: 0px 6px 0px 0px;
+}
+
+.icon.right {
+	margin: 0px 0px 0px 6px;
+}
+
+.btn.primary:disabled>.icon i::before {
+	color: #959BA3;
+}
+
+.btn.secondary:disabled {
+	background-color: transparent;
+	color: #C1C4C9;
+	border-color: #C1C4C9;
+	cursor: not-allowed;
+}
+
+.btn.secondary:disabled>.icon i::before {
+	color: #C1C4C9;
+}
+
+.btn.textbtn:disabled {
+	background-color: transparent;
+	color: #C1C4C9;
+	cursor: not-allowed;
+}
+
+.btn.textbtn:disabled>.icon i::before {
+	color: #C1C4C9;
+}
+
+.btn:disabled.btn:hover {
+	transform: none;
+	box-shadow: none;
+}
