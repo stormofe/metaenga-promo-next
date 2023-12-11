@@ -1,4 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+const path = require('path');
 
-module.exports = nextConfig
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  webpack: (config) => {
+	 config.resolve.alias['@assets'] = path.join(__dirname, 'public/assets')
+    return config;
+  },
+}
+
+module.exports = nextConfig;
+

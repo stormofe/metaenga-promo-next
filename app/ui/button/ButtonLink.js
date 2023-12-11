@@ -9,7 +9,7 @@ const ButtonLink = ({ children, direction, ...props }) => {
 			<>
 				{direction === 'left' && <span>
 					<Image
-						src="/icons/logo.svg"
+						src="/icons/svg/arrow_c_l.svg"
 						alt="Icon left"
 						width={24}
 						height={24}
@@ -18,7 +18,7 @@ const ButtonLink = ({ children, direction, ...props }) => {
 				{children}
 				{direction === 'right' && <span>
 					<Image
-						src="/icons/logo.svg"
+						src="/icons/svg/arrow_c_r.svg"
 						alt="Icon right"
 						width={24}
 						height={24}
