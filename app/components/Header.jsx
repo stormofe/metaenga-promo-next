@@ -6,19 +6,19 @@ import {ButtonLink} from "../ui/button/ButtonLink"
 
 const navLinks = [
 	{
-		name: 'Overview', href: '#overview'
+		name: 'Overview', mainhref: '#overview', subhref: 'overview'
 	},
 	{
-		name: 'Features', href: '#features'
+		name: 'Features', mainhref: '#features', subhref: 'features'
 	},
 	{
-		name: 'Pricing', href: '#pricing'
+		name: 'Pricing', mainhref: '#pricing', subhref: 'pricing'
 	},
 	{ 
-		name: 'Contact us', href: '#contact'
+		name: 'Contact us', mainhref: '#contact', subhref: 'contact'
 	},
 	{
-		name: 'VR Training', href: 'vr-training-library'
+		name: 'VR Training', mainhref: 'vr-training-library', subhref: ''
 	}
 ]
 

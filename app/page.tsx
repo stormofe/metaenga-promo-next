@@ -18,9 +18,9 @@ export default function Home() {
 					<Features />
 				</div>
 
-				<section>
+				{/*<section>
 					<Presentation />
-				</section>
+				</section>*/}
 
 		</main>
 	)
