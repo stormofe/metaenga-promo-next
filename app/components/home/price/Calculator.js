@@ -168,7 +168,7 @@ const Calculator = () => {
 	}
 
 	return (
-		<div className='container' style={{ padding: 0 }}>
+		<>
 
 			<div className={cl.title}>
 				<h6 className='mid__header'>Choose your subscription plan</h6>
@@ -251,7 +251,7 @@ const Calculator = () => {
 					))}
 				</div>
 			}
-		</div>
+		</>
 	)
 }
 

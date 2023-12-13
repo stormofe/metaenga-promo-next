@@ -9,7 +9,7 @@ function Cards() {
 					<div className="cards__item">
 						<div className="cards__item-img">
 							<Image
-								src='./assets/img/cards/card1.webp'
+								src='/assets/img/cards/card1.webp'
 								alt="working people"
 								width={588}
 								height={335}
@@ -26,7 +26,7 @@ function Cards() {
 					</div>
 					<div className="cards__item">
 						<div className="cards__item-img">
-							<Image src='./assets/img/cards/card3.webp' alt="working people" width={588}
+							<Image src='/assets/img/cards/card2.webp' alt="working people" width={588}
 								height={335} />
 						</div>
 						<p className='bigCard__header item__title'>For training services providers</p>
