@@ -143,7 +143,7 @@ function Presentation({ trainingId = '' }) {
 						}}
 						effect={"fade"}
 						navigation={winWidth > TABLET_WIDTH ? true : false}
-						modules={[EffectFade, Pagination, Navigation, Autoplay]}
+						modules={[EffectFade, Pagination, Navigation]}
 						autoplay={{
 							delay: 7000,
 							disableOnInteraction: false,
@@ -163,12 +163,6 @@ function Presentation({ trainingId = '' }) {
 					</Swiper>
 				</div>
 			</div>
-
-			{/*{slides?.map((slide, index) => (
-				<SlidePC key={index} {...slide} setVideoSrc={setVideoSrc} trainingId={trainingId} />
-
-			))}*/}
-
 		</div>
 	)
 }

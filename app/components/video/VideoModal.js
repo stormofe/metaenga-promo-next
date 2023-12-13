@@ -1,11 +1,12 @@
 'use client';
 
 import React, { useEffect, useState } from 'react'
-import {Modal} from '../../ui/modal/Modal'
+import { Modal } from '../../ui/modal/Modal'
 import Button from '../../ui/button/Button';
+import classNames from 'classnames';
 
 
-function VideoModal({ src, videoTitle, ...props }) {
+function VideoModal({ src, videoTitle, theme = '', ...props }) {
 	const [modalOpen, setModalOpen] = useState(false)
 
 	const callback = () => {
@@ -20,7 +21,7 @@ function VideoModal({ src, videoTitle, ...props }) {
 				</div>
 
 			</Modal>}
-			<Button className='btn textbtn' direction='left' icon='play_circle_big' onClick={() => setModalOpen(true)} {...props}>Watch video</Button>
+			<Button className={classNames('btn', theme === 'white' ? 'white' : 'textbtn')} direction='left' icon='play_circle_big' onClick={() => setModalOpen(true)} {...props}>Watch video</Button>
 		</>
 	)
 }

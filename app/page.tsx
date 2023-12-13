@@ -4,6 +4,7 @@ import { Features } from './components/home/Features';
 import { Presentation } from './components/home/Presentation';
 import { GetVRApp } from './components/home/GetVRApp';
 import { Price } from './components/home/Price';
+import {FAQ} from './components/home/FAQ';
 
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
 			<section id='pricing'>
 				<Price />
 			</section>
-
+			<FAQ />
 		</main>
 	)
 }

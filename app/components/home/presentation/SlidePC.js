@@ -18,8 +18,8 @@ function SlidePC({ trainingId, ...props }) {
 				</article>
 				<div className="slide__buttons">
 					{url && !trainingId &&
-						<VideoModal src={url} videoTitle={title} />}
-					{info && <ButtonLink href={`/training?id=${id}`} className='btn-link ' direction='right' icon='chevron' >Learn more</ButtonLink>}
+						<VideoModal src={url} videoTitle={title} theme='white' />}
+					{info && <ButtonLink href={`/training?id=${id}`} className='btn-link textbtnWhite' direction='right' icon='chevron-right' >Learn more</ButtonLink>}
 				</div>
 			</div>
 		</div>

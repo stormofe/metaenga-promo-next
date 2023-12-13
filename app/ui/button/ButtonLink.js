@@ -7,22 +7,12 @@ const ButtonLink = ({ children, direction, ...props }) => {
 	return (
 		<Link {...props}>
 			<>
-				{direction === 'left' && <span>
-					<Image
-						src="/icons/svg/arrow_c_l.svg"
-						alt="Icon left"
-						width={24}
-						height={24}
-						priority />
+				{direction === 'left' && <span className="icon">
+					<i className="icon-chevron-left" />
 				</span>}
 				{children}
-				{direction === 'right' && <span>
-					<Image
-						src="/icons/svg/arrow_c_r.svg"
-						alt="Icon right"
-						width={24}
-						height={24}
-						priority />
+				{direction === 'right' && <span className="icon">
+					<i className="icon-chevron-right" />
 				</span>}
 			</>
 		</Link>

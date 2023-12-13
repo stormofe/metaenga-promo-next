@@ -1,0 +1,112 @@
+.faq {
+	margin: 100px 0px 140px 0px;
+}
+
+.faq__container {
+	margin: 0 auto 0px auto;
+}
+
+.faq__container>h6 {
+	text-align: center;
+	margin: 0px 0px 35px 0px;
+}
+
+@media (max-width: 991.5px) {
+	.faq {
+		margin: 60px 0px 80px 0px;
+	}
+
+}
+
+.wrapper {
+	max-width: 872px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.accordion-wrapper {
+	background-color: #fff;
+}
+
+.accordion-wrapper+* {
+	margin-top: 16px;
+}
+
+.accordion-item {
+	overflow: hidden;
+	transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+	height: auto;
+	max-height: 9999px;
+}
+
+.accordion-item.collapsed {
+	max-height: 0;
+	transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordion-title {
+	font-weight: 600;
+	cursor: pointer;
+	color: var(--text-color);
+	padding: 10px 24px;
+	border-radius: 6px;
+	border: 1px solid #E7EBEE;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	user-select: none;
+	transition: color 0.2s ease-in-out;
+}
+
+.accordion-title::after {
+	content: url('../../../public/icons/svg/chevron-down.svg');
+	width: 24px;
+	height: 24px;
+	transition: transform 0.2s ease-in-out;
+	margin-left: 16px;
+}
+
+.accordion-title:hover,
+.accordion-title.open {
+	color: #2e3a4bbb;
+}
+
+.accordion-title.open::after {
+	content: url('../../../public/icons/svg/chevron-down.svg');
+	width: 24px;
+	height: 24px;
+	transform: rotate(180deg);
+	margin: 0px 0px 0px 10px;
+}
+
+.accordion-content {
+	padding: 18px 24px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border: 1px solid #E7EBEE;
+	border-top: none;
+}
+
+.accordion-content a {
+	color: var(--primary-color);
+}
+
+.accordion-content span {
+	color: var(--text-color);
+	font-weight: bolder;
+	white-space: nowrap;
+}
+
+.accordion__link {
+	font-weight: 600;
+	transition: text-decoration 0.2s ease-in-out;
+}
+
+.accordion__link:hover {
+	text-decoration: underline;
+}
+
+.accordion__link:active {
+	text-decoration: none;
+	color: #0086FF;
+}

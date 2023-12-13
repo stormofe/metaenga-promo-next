@@ -1,6 +1,8 @@
 import Link from "next/link"
 
 import '../styles/Footer.css'
+import Image from "next/image";
+import { VrAppLink } from "../ui/vrAppLink/VrAppLink";
 
 const Footer = () => {
 	return (
@@ -23,7 +25,7 @@ const Footer = () => {
 						</Link>
 						<div className="socials__vr">
 							<p>Download platform</p>
-							{/*<VrAppLink gray />*/}
+							<VrAppLink gray />
 						</div>
 					</div>
 					<div className="footer__docs docs">
@@ -46,9 +48,9 @@ const Footer = () => {
 							DMCA
 						</Link>
 					</div>
-					{/*<div className="footer__contacts contacts">
+					<div className="footer__contacts contacts">
 						<div className="contacts__item">
-							<img src={ua} alt='Flag Ukraine' />
+							<Image src='/icons/svg/ua.svg' alt='Flag Ukraine' width={24} height={24} />
 							<div className="contacts__item-text">
 								<p className='text__body'>Ukraine</p>
 								<p className='text__body'>Trostyanetska str, 6G, Kyiv, 02091</p>
@@ -57,7 +59,7 @@ const Footer = () => {
 							</div>
 						</div>
 						<div className="contacts__item">
-							<img src={uk} alt='Flag United Kingdom' />
+							<Image src='/icons/svg/uk.svg' alt='Flag United Kingdom' width={24} height={24} />
 							<div className="contacts__item-text">
 								<p className='text__body'>United Kingdom</p>
 								<p className='text__body'><span>80 Nightingale Road</span>, <span>Derby DE24 8BG</span></p>
@@ -65,7 +67,7 @@ const Footer = () => {
 								<a href='mailhref:info@vrsafety.co.uk' className='text__body'>info@vrsafety.co.uk</a>
 							</div>
 						</div>
-					</div>*/}
+					</div>
 					<div className="footer__provide">
 						<p className='text__body'>© 2023 – Metaenga by Digital Engineering and Magic</p>
 					</div>

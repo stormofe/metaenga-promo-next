@@ -1,3 +1,4 @@
+'use client';
 import React, { useId } from 'react'
 import { Tooltip } from '../tooltip/Tooltip'
 
