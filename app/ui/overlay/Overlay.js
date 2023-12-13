@@ -28,7 +28,6 @@ function Overlay({ children, callback = null, modalisopen, setisopen, ...props }
 
 	useEffect(() => {
 		document.addEventListener('keydown', handleKeyPress);
-
 		return () => {
 			document.removeEventListener('keydown', handleKeyPress);
 			document.body.style.marginRight = '0';

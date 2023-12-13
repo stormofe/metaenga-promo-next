@@ -46,16 +46,16 @@ const data = [
 	},
 	{
 		title: "How much does Metaenga cost?",
-		content: <p>Discover Metaenga's cutting-edge immersive training solutions at scale on your fleet of favorite VR headsets for one fixed monthly or annual fee per user account. Plans range from <span>FREE</span> to <span>EUR {sumMonthly}.00</span> a month per user account. No extra costs.</p>,
+		content: <p>Discover Metaenga&apos;s cutting-edge immersive training solutions at scale on your fleet of favorite VR headsets for one fixed monthly or annual fee per user account. Plans range from <span>FREE</span> to <span>EUR {sumMonthly}.00</span> a month per user account. No extra costs.</p>,
 	},
 	{
 		title: "Which VR headset do I need?",
 		content: <p>Metaenga supports industry standards headsets <span>Meta Quest</span> and <span>Pico 4</span> for VR Training. <br />
 			Metaenga team is constantly working on expanding the range of supported VR devices so that new devices will appear rapidly.
 			<br /> <br />
-			360 Video learning content is available everywhere. Sign in with your organization's Metaenga account to watch instantly on the web at <a className='accordion__link' href='https://metaenga.com'>metaenga.com</a> from your personal computer or any internet-connected device, including smartphones and tablets.
+			360 Video learning content is available everywhere. Sign in with your organization&apos;s Metaenga account to watch instantly on the web at <a className='accordion__link' href='https://metaenga.com'>metaenga.com</a> from your personal computer or any internet-connected device, including smartphones and tablets.
 			<br /> <br />
-			You can also download your favorite 360 learning videos with <span>iOS</span> and <span>Android</span>. Use the download feature to watch while you're on the go and without an internet connection. Take Metaenga with you anywhere.</p>
+			You can also download your favorite 360 learning videos with <span>iOS</span> and <span>Android</span>. Use the download feature to watch while you&apos;re on the go and without an internet connection. Take Metaenga with you anywhere.</p>
 	},
 	{
 		title: "How do I cancel my subscription?",
@@ -64,9 +64,9 @@ const data = [
 	{
 		title: "Can I upload my existing organization's VR content?",
 		content: <p>
-			Not now. Metaenga offers an extensive and constantly growing VR Training Library. Metaenga provides bespoke development services of unique  VR Training solutions according to your organization's requirements.
+			Not now. Metaenga offers an extensive and constantly growing VR Training Library. Metaenga provides bespoke development services of unique  VR Training solutions according to your organization&apos;s requirements.
 			<br /><br />
-			Uploading your organization's VR training content will be available in the upcoming year.
+			Uploading your organization&apos;s VR training content will be available in the upcoming year.
 		</p>
 	},
 	{
@@ -99,7 +99,7 @@ const trainingfaq = [
 	{
 		title: "How much does Metaenga cost?",
 		content: <p>
-			Discover Metaenga’s cutting-edge immersive training solutions at scale on your organization for one fixed monthly or annual fee per user account. <br /> <br />
+			Discover Metaenga&apos;s cutting-edge immersive training solutions at scale on your organization for one fixed monthly or annual fee per user account. <br /> <br />
 			Plans range from <span>FREE</span> to <span>EUR {sumMonthly}.00</span> a month per user account. No extra costs.
 		</p>
 	},
@@ -107,8 +107,8 @@ const trainingfaq = [
 		title: "Which VR headset do I need?",
 		content: <p>
 			Metaenga supports industry standards headsets <span>Meta Quest</span> and <span>Pico 4</span> for VR Training. We are constantly working on expanding the range of supported VR devices so that new devices will appear rapidly. <br /> <br />
-			360 Video learning content is available everywhere. Sign in with your organization’s Metaenga account to watch instantly from your personal computer or any internet-connected device, including smartphones and tablets. <br /><br />
-			You can also download your favorite 360 learning videos with <span>iOS</span> and <span>Android</span>. Use the download feature to watch while you’re on the go and without an internet connection. Take Metaenga with you anywhere.
+			360 Video learning content is available everywhere. Sign in with your organization&apos;s Metaenga account to watch instantly from your personal computer or any internet-connected device, including smartphones and tablets. <br /><br />
+			You can also download your favorite 360 learning videos with <span>iOS</span> and <span>Android</span>. Use the download feature to watch while you&apos;re on the go and without an internet connection. Take Metaenga with you anywhere.
 		</p>
 	},
 	{

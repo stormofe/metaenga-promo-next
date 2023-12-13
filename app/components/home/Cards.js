@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import './Cards.css'
 
 function Cards() {
@@ -7,20 +8,26 @@ function Cards() {
 				<div className="cards__container">
 					<div className="cards__item">
 						<div className="cards__item-img">
-							<img src='./assets/img/cards/card1.webp' alt="working people" />
+							<Image
+								src='./assets/img/cards/card1.webp'
+								alt="working people"
+								width={588}
+								height={335}
+							/>
 						</div>
 						<p className="bigCard__header item__title">For industrial enterprise</p>
 						<div className="item__overlay">
 							<div className="item__overlay-text">
 								<i className='icon-industry' />
-								<article className='text__body'>If you're looking for ways to maximize the value of your organization's safety training program, Metaenga provides you with the most powerful and easy-to-use XR training tools to do just that.</article>
+								<article className='text__body'>If you&apos;re looking for ways to maximize the value of your organization&apos;s safety training program, Metaenga provides you with the most powerful and easy-to-use XR training tools to do just that.</article>
 								<p className="bigCard__header item__title">For industrial enterprise</p>
 							</div>
 						</div>
 					</div>
 					<div className="cards__item">
 						<div className="cards__item-img">
-							<img src='./assets/img/cards/card2.webp' alt="working people" />
+							<Image src='./assets/img/cards/card3.webp' alt="working people" width={588}
+								height={335} />
 						</div>
 						<p className='bigCard__header item__title'>For training services providers</p>
 						<div className="item__overlay">

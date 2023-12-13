@@ -4,6 +4,7 @@ import { Video } from "../../video/Video"
 
 import bundle from '../../../../public/icons/svg/bundle.svg'
 import Link from "next/link"
+import Image from "next/image"
 
 
 function SlideMob({ trainingId, ...props }) {
@@ -15,7 +16,8 @@ function SlideMob({ trainingId, ...props }) {
 				<Video src={video_m} thumb={thumb_m} />
 				<div className="container">
 					<div className="slide__bundle">
-						{!trainingId && <><img className='slide__icon' src={bundle} alt='Icon bundle' />
+						{!trainingId && <><Image className='slide__icon' src={bundle} alt='Icon bundle' width={24} height={24}
+						/>
 							<p>VR training bundle</p>
 						</>}
 					</div>

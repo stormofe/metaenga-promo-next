@@ -238,7 +238,7 @@ const Calculator = () => {
 						modules={[Pagination]}
 					>
 						{plans.map((plan, index) => (
-							<SwiperSlide>
+							<SwiperSlide key={index}>
 								{card(plan, index)}
 							</SwiperSlide>
 						))}
