@@ -1,0 +1,43 @@
+.link {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 10px;
+	border-radius: 6px;
+	border: 1.5px solid var(--fielddisabled-color);
+	background: #FFF;
+	transition: all 0.3s ease-in-out;
+}
+
+.link.gray {
+	background: transparent;
+}
+
+.link>i {
+	margin: 0px 8px 0px 0px;
+	color: var(--fieldhover-color);
+	font-size: 20px;
+}
+
+.link.gray>i {
+	color: #FFFFFFB2;
+}
+
+.link>span {
+	color: var(text-color);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.link.gray>span {
+	color: #fff;
+}
+
+.link:hover {
+	opacity: 0.8;
+}
+
+.link.gray:hover {
+	opacity: 1;
+	background: rgba(255, 255, 255, 0.15);
+}

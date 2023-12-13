@@ -4,18 +4,18 @@ function Button({ children, icon = '', direction = '', ...props }) {
 
 	const buttonDisabled = <>
 		<button disabled {...props}>
-			{direction === 'left' && <span className='icon left'><i className={`icon-${icon}`}></i></span>}
+			{direction === 'left' && <span className='icon left_icon'><i className={`icon-${icon}`}></i></span>}
 			{children}
-			{direction === 'right' && <span className='icon right'><i className={`icon-${icon}`}></i></span>}
+			{direction === 'right' && <span className='icon right_icon'><i className={`icon-${icon}`}></i></span>}
 			
 		</button>
 	</>
 
 	const buttonEnabled = <>
 		<button  {...props}>
-			{direction === 'left' && <span className='icon left'><i className={`icon-${icon}`}></i></span>}
+			{direction === 'left' && <span className='icon left_icon'><i className={`icon-${icon}`}></i></span>}
 			{children}
-			{direction === 'right' && <span className='icon right'><i className={`icon-${icon}`}></i></span>}
+			{direction === 'right' && <span className='icon right_icon'><i className={`icon-${icon}`}></i></span>}
 		</button>
 	</>
 

@@ -2,6 +2,8 @@ import { Promo } from './components/home/Promo';
 import { Cards } from './components/home/Cards';
 import { Features } from './components/home/Features';
 import { Presentation } from './components/home/Presentation';
+import { GetVRApp } from './components/home/GetVRApp';
+import { Price } from './components/home/Price';
 
 
 export default function Home() {
@@ -15,12 +17,16 @@ export default function Home() {
 			</section>
 
 			<div id='features'>
-					<Features />
-				</div>
+				<Features />
+			</div>
 
-				{/*<section>
-					<Presentation />
-				</section>*/}
+			<section>
+				<Presentation />
+			</section>
+			<GetVRApp />
+			<section id='pricing'>
+				<Price />
+			</section>
 
 		</main>
 	)

@@ -1,0 +1,27 @@
+.get {
+	padding:  80px 0 20px 0;
+}
+.get__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 42px 16px;
+	border-radius: 12px;
+	background: #E7EBEE;
+}
+
+.get__content > p {
+	margin: 28px 0;
+}
+
+@media (max-width: 575.5px) {
+	.get {
+		padding: 24px 0;
+	}
+	.get__content {
+		margin: 0 -16px;
+		border-radius: 0;
+	}
+}

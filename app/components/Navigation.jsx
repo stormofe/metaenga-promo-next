@@ -50,7 +50,6 @@ const MainLinks = ({ navLinks, pathname }) => {
 }
 
 const SubLinks = ({ navLinks, pathname }) => {
-	console.log('path', pathname)
 	return (
 		<>
 			{navLinks.map((link, index) => {
