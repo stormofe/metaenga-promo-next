@@ -1,0 +1,149 @@
+.vrLib {
+	padding: 40px 0;
+}
+
+.vrLib h1 {
+	text-align: center;
+}
+
+.vrLib__grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+	margin: 20px 0px 0px 0px;
+}
+
+.vrLib__grid_item {
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+	border-radius: 12px;
+	border-width: 0px, 1px, 1px, 1px;
+	border-style: solid;
+	border-color: #E7EBEE;
+	cursor: pointer;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.vrLib__grid_item:hover {
+	box-shadow: 0px 0px 4px 0px #2E3A4B1F;
+	box-shadow: 2px 4px 10px 0px #2E3A4B29;
+}
+
+.vrLib__item_img {
+	position: relative;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.vrLib__item_img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+
+.vrLib__item_info {
+	padding: 10px 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.vrLib__item_info>p {
+	margin: 4px 0px 0px 0px;
+}
+
+.vrLib__item_info_title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 110%;
+	letter-spacing: 0px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.vrLib__item_info_desc {}
+
+.vrLib__item_info_arrow {
+	display: flex;
+	justify-content: flex-end;
+	height: 40px;
+}
+
+.vrLib__arrow_btn {
+	position: absolute;
+	right: 16px;
+	bottom: 8px;
+	display: flex;
+	align-items: center;
+}
+
+.vrLib__arrow_btn>p {
+	color: var(--primary-color);
+	font-size: 18px;
+	font-weight: 600;
+	transition: all 0.3s ease-in-out;
+}
+
+.vrLib__arrow_btn>i {
+	transform: rotate(90deg);
+	color: var(--primary-color);
+	font-size: 30px;
+	transition: color 0.3s ease-in-out;
+}
+
+.vrLib__grid_item:hover .vrLib__arrow_btn>p,
+.vrLib__grid_item:hover .vrLib__arrow_btn>i {
+	color: var(--primary-color-pressed); 
+}
+
+@media (max-width: 1600.5px) {
+	.vrLib__grid {
+		grid-gap: 24px;
+	}
+
+	.vrLib__item_info_title {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 767.5px) {
+	.vrLib {
+		padding: 20px 0;
+	}
+
+	.vrLib__grid {
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 16px;
+	}
+}
+
+@media (max-width: 500.5px) {
+	.vrLib__item_info_title {
+		font-size: 18px;
+		order: 1;
+	}
+
+	.vrLib__item_info_desc {
+		order: 2;
+	}
+
+	.vrLib__item_info_arrow {
+		height: 0px;
+		order: 3;
+	}
+
+	.vrLib__item_info_chips {
+		margin: 8px 0px 0px 0px;
+		order: 4;
+	}
+}
