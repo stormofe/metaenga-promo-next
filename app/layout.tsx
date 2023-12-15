@@ -9,7 +9,7 @@ import { Footer } from './components/Footer'
 import Head from 'next/head'
 
 export const metadata: Metadata = {
-	title: 'Metaenga | XR Training Platform for Managing VR Training Solutions',
+	title: 'XR Training Platform for Managing VR Training Solutions',
 	description: 'Empowering workforce development through the XR Training Platform for managing enterprise virtual reality safety training programs with analytics and reporting',
 	keywords: [
 		'metaenga',

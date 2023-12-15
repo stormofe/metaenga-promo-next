@@ -178,8 +178,8 @@ const Calculator = () => {
 			<div className={cl.switch}>
 				<p className='small__header'>Billed Monthly</p>
 				<Switch checked={annualy} onChange={() => setAnnualy(!annualy)} >
-					{/*<Paragraph>Billed Annualy <span>(save up to 10%)</span></Paragraph>*/}
-					<p className='small__header' style={annualy ? { color: 'var(--primary-color)', fontWeight: 600, marginRight: 8 } : { marginRight: 8 }}>Billed Annualy 				<div className={cl.chips}>
+					{/*<Paragraph>Billed Annually <span>(save up to 10%)</span></Paragraph>*/}
+					<p className='small__header' style={annualy ? { color: 'var(--primary-color)', fontWeight: 600, marginRight: 8 } : { marginRight: 8 }}>Billed Annually 				<div className={cl.chips}>
 						Save 15%
 					</div></p>
 				</Switch>
