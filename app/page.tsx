@@ -8,6 +8,11 @@ import { FAQ } from './components/home/FAQ';
 import Head from 'next/head';
 import { iconsImage } from './shared-metadata';
 
+export const metadata = {
+	title: 'Metaenga | XR Training Platform for Managing VR Training Solutions',
+	description: 'Empowering workforce development through the XR Training Platform for managing enterprise virtual reality safety training programs with analytics and reporting'
+ }
+
 export default function Home() {
 	return (
 			<main>
