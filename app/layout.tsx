@@ -16,13 +16,13 @@ export const metadata: Metadata = {
 		description: 'Empowering workforce development through the XR Training Platform for managing enterprise virtual reality safety training programs with analytics and reporting',
 		type: 'website',
 		locale: 'en_US',
-		url: 'https://metaenga.com/',
+		url: 'https://metaenga-promo-next.vercel.app',
 		siteName: "Metaenga",
 		images: [{
-			url: "./opengraph-image.jpg",
+			url: "/opengraph-image.jpg",
 		}]
 	},
-	twitter: { card: "summary_large_image", site: "https://metaenga.com/", creator: "Metaenga", "images": "./opengraph-image.jpg" }
+	twitter: { card: "summary_large_image", site: "https://metaenga-promo-next.vercel.app", creator: "Metaenga", "images": "/opengraph-image.jpg" }
 
 }
 
