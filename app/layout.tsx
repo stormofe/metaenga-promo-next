@@ -19,10 +19,10 @@ export const metadata: Metadata = {
 		url: 'https://metaenga-promo-next.vercel.app',
 		siteName: "Metaenga",
 		images: [{
-			url: "opengraph-image.jpg",
+			url: "https://metaenga-promo-next.vercel.app/opengraph-image.jpg",
 		}]
 	},
-	twitter: { card: "summary_large_image", site: "https://metaenga-promo-next.vercel.app", creator: "Metaenga", "images": "opengraph-image.jpg" }
+	twitter: { card: "summary_large_image", site: "https://metaenga-promo-next.vercel.app", creator: "Metaenga", "images": "https://metaenga-promo-next.vercel.app/opengraph-image.jpg" }
 
 }
 
