@@ -17,7 +17,7 @@ export default function Home() {
 				<meta name="title" content="Metaenga | XR Training Platform for Managing VR Training Solutions" />
 				<meta name="description"
 					content="Empowering workforce development through the XR Training Platform for managing enterprise virtual reality safety training programs with analytics and reporting" />
-{/*
+
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://metaenga.com/" />
 				<meta property="og:title" content="Metaenga | XR Training Platform for Managing VR Training Solutions" />
@@ -42,7 +42,7 @@ export default function Home() {
 
 				<meta name="google-site-verification" content="LqvMZiTzE0hBVuo7d6CnUyrKcZWCZrV8kJmhO7bSadU" />
 				<link rel="preload" as="image" href="icons/Metaenga.jpg" type="image/jpeg" />
-				<link rel="preload" as="image" href="icons/Metaenga_m.jpg" type="image/jpeg" />*/}
+				<link rel="preload" as="image" href="icons/Metaenga_m.jpg" type="image/jpeg" />
 			</Head>
 				<section id='overview'>
 					<Promo />
