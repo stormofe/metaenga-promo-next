@@ -72,12 +72,12 @@ export const metadata: Metadata = {
 		siteName: "Metaenga",
 		images: [
 			{
-				url: 'https://metaenga-promo-next.vercel.app/opengraph-image.jpg',
+				url: 'https://images.unsplash.com/photo-1682687981715-fa2ff72bd87d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8',
 				width: 1200,
 				height: 600,
 			},
 			{
-				url: 'https://metaenga-promo-next.vercel.app/twitter-image.jpg',
+				url: 'https://images.unsplash.com/photo-1682687981715-fa2ff72bd87d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8',
 				width: 1200,
 				height: 600,
 			},
@@ -88,12 +88,12 @@ export const metadata: Metadata = {
 		site: "https://metaenga-promo-next.vercel.app",
 		creator: "Metaenga",
 		images: [{
-			url: 'https://metaenga-promo-next.vercel.app/opengraph-image.jpg',
+			url: 'https://images.unsplash.com/photo-1682687981715-fa2ff72bd87d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8',
 			width: 1200,
 			height: 600,
 		},
 		{
-			url: 'https://metaenga-promo-next.vercel.app/twitter-image.jpg',
+			url: 'https://images.unsplash.com/photo-1682687981715-fa2ff72bd87d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8',
 			width: 1200,
 			height: 600,
 		},]
