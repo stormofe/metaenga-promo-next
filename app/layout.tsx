@@ -17,8 +17,13 @@ export const metadata: Metadata = {
 		type: 'website',
 		locale: 'en_US',
 		url: 'https://metaenga.com/',
-		siteName: "Metaenga"
-	}
+		siteName: "Metaenga",
+		images: [{
+			url: "./opengraph-image.jpg",
+		}]
+	},
+	twitter: { card: "summary_large_image", site: "https://metaenga.com/", creator: "Metaenga", "images": "./opengraph-image.jpg" }
+
 }
 
 export default function RootLayout({
