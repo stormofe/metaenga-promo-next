@@ -70,15 +70,33 @@ export const metadata: Metadata = {
 		locale: 'en_US',
 		url: 'https://metaenga-promo-next.vercel.app',
 		siteName: "Metaenga",
-		images: [{
-			url: "https://metaenga-promo-next.vercel.app/opengraph-image.jpg",
-		}]
+		images: [
+			{
+				url: 'https://metaenga-promo-next.vercel.app/opengraph-image.jpg',
+				width: 1200,
+				height: 600,
+			},
+			{
+				url: 'https://metaenga-promo-next.vercel.app/twitter-image.jpg',
+				width: 1200,
+				height: 600,
+			},
+		]
 	},
 	twitter: {
 		card: "summary_large_image",
 		site: "https://metaenga-promo-next.vercel.app",
 		creator: "Metaenga",
-		images: ["https://metaenga-promo-next.vercel.app/opengraph-image.jpg"]
+		images: [{
+			url: 'https://metaenga-promo-next.vercel.app/opengraph-image.jpg',
+			width: 1200,
+			height: 600,
+		},
+		{
+			url: 'https://metaenga-promo-next.vercel.app/twitter-image.jpg',
+			width: 1200,
+			height: 600,
+		},]
 	},
 	robots: {
 		index: false,
