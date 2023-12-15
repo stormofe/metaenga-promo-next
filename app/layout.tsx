@@ -133,7 +133,7 @@ export default function RootLayout({
 				<meta property="twitter:title" content="Metaenga | XR Training Platform for Managing VR Training Solutions" />
 				<meta property="twitter:description"
 					content="Empowering workforce development through the XR Training Platform for managing enterprise virtual reality safety training programs with analytics and reporting" />
-				<meta name="twitter:image" content="https://metaenga-promo-next.vercel.app/opengraph-image.jpg" />
+				<meta name="twitter:image" content="https://metaenga-promo-next.vercel.app/twitter-image.jpg" />
 			</Head>
 			<body className={figtree.className}>
 				<Header />

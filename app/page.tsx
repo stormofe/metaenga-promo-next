@@ -6,9 +6,9 @@ import { GetVRApp } from './components/home/GetVRApp';
 import { Price } from './components/home/Price';
 import { FAQ } from './components/home/FAQ';
 import Head from 'next/head';
-import { iconsImage } from './shared-metadata';
+import { Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
 	title: 'Metaenga | XR Training Platform for Managing VR Training Solutions',
 	description: 'Empowering workforce development through the XR Training Platform for managing enterprise virtual reality safety training programs with analytics and reporting'
 }
@@ -32,7 +32,7 @@ export default function Home() {
 				<meta property="twitter:title" content="Metaenga | XR Training Platform for Managing VR Training Solutions" />
 				<meta property="twitter:description"
 					content="Empowering workforce development through the XR Training Platform for managing enterprise virtual reality safety training programs with analytics and reporting" />
-				<meta name="twitter:image" content="https://metaenga-promo-next.vercel.app/opengraph-image.jpg" />
+				<meta name="twitter:image" content="https://metaenga-promo-next.vercel.app/twitter-image.jpg" />
 			</Head>
 			<main>
 				<section id='overview'>

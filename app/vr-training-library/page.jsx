@@ -5,8 +5,6 @@ import { PlanChips } from '../ui/planChips/PlanChips'
 
 import './VrLib.css'
 import Image from 'next/image'
-import Head from 'next/head'
-import { iconsImage } from '../shared-metadata'
 
 export const metadata = {
 	title: 'VR Training Library for Enterprises | XR Safety Programs',
