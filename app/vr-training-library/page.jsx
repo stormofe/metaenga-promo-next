@@ -8,8 +8,14 @@ import Image from 'next/image'
 
 export const metadata = {
 	title: 'VR Training Library for Enterprises | XR Safety Programs',
-	description: 'VR Training Library for Elevating Safety Training Programs in the Electric Power, Oil and Gas Industry, Utility and Industrial Enterprises under XR Platform'
- }
+	description: 'VR Training Library for Elevating Safety Training Programs in the Electric Power, Oil and Gas Industry, Utility and Industrial Enterprises under XR Platform',
+	alternates: {
+		canonical: 'https://metaenga-promo-next.vercel.app/vr-training-library',
+		types: {
+			'application/rss+xml': 'https://metaenga-promo-next.vercel.app/vr-training-library',
+		},
+	}, 
+}
 
 export default function VRLibrary() {
 	const trainings = getTrainingInfoList()

@@ -6,7 +6,7 @@ const figtree = Figtree({ subsets: ['latin'], style: 'normal', weight: ['400', '
 
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
-import Head from 'next/head'
+import { Toast } from './ui/toast/Toast'
 
 export const metadata: Metadata = {
 	title: 'XR Training Platform for Managing VR Training Solutions',
@@ -140,6 +140,7 @@ export default function RootLayout({
 				<Header />
 				{children}
 				<Footer />
+				<Toast />
 			</body>
 		</html>
 	)

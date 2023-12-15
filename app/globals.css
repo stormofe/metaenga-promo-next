@@ -575,6 +575,12 @@ a {
 	transform: rotate(-45deg) translate(1px, -6px);
 }
 
+@media (min-width: 991.5px){
+	.burger-icon {
+		display: none;
+	}
+}
+
 /*burger*/
 
 

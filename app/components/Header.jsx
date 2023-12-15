@@ -38,7 +38,7 @@ const Header = () => {
 					/>
 				</Link>
 				<Navigation navLinks={navLinks} />
-				<div className="header__buttons">
+				<div className="header__buttons header__buttons_pc">
 					<ButtonLink className='btn-link textbtn' id='login-btn-header' href={'https://app.metaenga.com/'} target="_blank">Log in</ButtonLink>
 					<ButtonLink className='btn-link primary' id='free-btn-header' href={'https://app.metaenga.com/'} target="_blank">Start free</ButtonLink>
 				</div>

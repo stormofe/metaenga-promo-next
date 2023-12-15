@@ -31,6 +31,19 @@
 	margin-right: 16px;
 }
 
+.header__buttons_pc {
+	display: block;
+}
+
+.header__menu_pc {
+	display: block;
+}
+
+.header__menu_mob {
+	display: none;
+}
+
+
 @media (max-width: 1200px) {
 	.header__menu-item {
 		margin: 0px 0px 0px 10px;
@@ -38,6 +51,8 @@
 }
 
 @media (max-width: 991.5px) {
+
+
 	.header__menu {
 		position: fixed;
 		top: 0;
@@ -89,7 +104,8 @@
 		padding: 0 32px;
 	}
 
-	.header__buttons>button {
+	.header__buttons>button,
+	.header__buttons a {
 		margin-top: 16px;
 		margin-right: 0;
 	}
@@ -119,4 +135,15 @@
 		visibility: visible;
 	}
 
+	.header__buttons_pc {
+		display: none;
+	}
+
+	.header__menu_pc {
+		display: none;
+	}
+
+	.header__menu_mob {
+		display: flex;
+	}
 }

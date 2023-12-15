@@ -1,0 +1,159 @@
+.subscribe {
+	margin: 0px 0px 80px 0px;
+}
+
+.subscribe__container {
+	display: flex;
+	padding: 60px 140px;
+	background: #E7EBEE;
+	border-radius: 12px;
+}
+
+.subscribe__container-text {
+	padding: 90px 20px 0 0;
+}
+
+.subscribe__container-text,
+.subscribe__container-form {
+	flex-basis: 50%;
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+
+.subscribe__container-text>h6 {
+	font-size: 50px;
+	line-height: 60px;
+}
+
+.subscribe__container-text>p {
+	margin: 29px 0px 0px 0px;
+	max-width: 400px;
+}
+
+.form>form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form__row {
+	flex-basis: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.form__row-input {
+	flex-basis: 49%;
+}
+
+.form__check>p {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.form__check-container {
+	display: flex;
+	align-items: center;
+	margin: 10px 0px 26px 0px;
+}
+
+.form__check-item {
+	margin: 0px 15px 0px 0px;
+}
+
+.form__btns {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form__btns>button {
+	margin: 0 8px;
+}
+
+@media (min-width: 1200.5px) {
+	.subscribe__container {
+		padding: 60px;
+	}
+
+}
+
+@media (min-width: 991.5px) {
+	.subscribe__container {
+		padding: 45px;
+	}
+
+	.subscribe__container-form {
+		padding-left: 35px;
+	}
+
+	.form__row,
+	.form__row-full {
+		margin-bottom: 16px;
+	}
+
+	.form__check-container {
+		margin: 22px 0px 32px 0px;
+	}
+
+	/*.subscribe .container {
+		padding: 0;
+	}*/
+}
+
+@media (min-width: 1150.5px) {
+	.form__check-item {
+		margin: 0px 34px 0px 0px;
+	}
+}
+
+@media (min-width: 1440.5px) {
+	.subscribe__container {
+		padding: 45px 100px;
+	}
+}
+
+/*MODAL*/
+
+.subscr__modal {
+	padding: 39px 24px 48px 24px;
+}
+
+.subscr__modal>h6 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.subscr__modal form {
+	margin: 16px 0px 0px 0px;
+}
+
+.subscr__modal .form__row {
+	display: block;
+}
+
+.subscr__modal .form__check-item {
+	margin: 0px 15px 0px 0px;
+}
+
+
+
+@media (max-width: 440px) {
+	.subscr__modal .form__check-container {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 10px 0px 0px 0px;
+	}
+
+	.subscr__modal .form__check-item {
+		white-space: nowrap;
+		margin: 0px 0px 25px 0px;
+	}
+
+	.subscr__modal .form__check-item:nth-child(3) {
+		flex-basis: 100%;
+		display: flex;
+		justify-content: center;
+	}
+}

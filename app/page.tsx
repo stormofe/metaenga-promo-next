@@ -5,6 +5,7 @@ import { Presentation } from './components/home/Presentation';
 import { GetVRApp } from './components/home/GetVRApp';
 import { Price } from './components/home/Price';
 import { FAQ } from './components/home/FAQ';
+import { Contact } from './components/home/Contact';
 
 export default function Home() {
 	return (
@@ -28,6 +29,7 @@ export default function Home() {
 					<Price />
 				</section>
 				<FAQ />
+				<Contact />
 			</main>
 	)
 }
